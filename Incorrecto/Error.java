@@ -1,8 +1,4 @@
 /*interface ErrorDefault {
-    default void correr() {
-        System.out.println("Hola");
-
-    }
 }
 
 interface Fallo {
@@ -11,9 +7,13 @@ interface Fallo {
 }
 
 abstract class FalloAbstracto {
+    default void correr() {
+        System.out.println("Hola");
+
+    }
 }
 
 public class Error implements Fallo {
 
 }
-*/
+ */
